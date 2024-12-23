@@ -1,8 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using FightGame.Models.Characters;
-using FightGame.Models.Fight.Competence;
+include Systems.CombatSystem;
 
 namespace FightGame
 {
@@ -81,7 +78,6 @@ namespace FightGame
             Console.WriteLine("2. Mage");
             Console.WriteLine("3. Paladin");
             Console.WriteLine("4. Voleur");
-            Console.WriteLine("5. Prêtre\n");
 
             int choix = LireChoix(1, 5);
             string nom = LireNom();
